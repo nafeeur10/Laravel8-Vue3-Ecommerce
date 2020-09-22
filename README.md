@@ -11,8 +11,8 @@
 
 - Via Laravel Installer:
   <code>composer global require laravel/installer</code>
-- laravel new <project-name>
-- cd <project-name>
+- laravel new <code><project-name></code>
+- cd <code><project-name></code>
 
 ## Install Vuejs with Laravel
 
@@ -22,13 +22,13 @@
 - Though we are wanting to use Vue, we have to use Interia
   <code>php artisan jetstream:install inertia --teams</code>
 
-- npm install && npm run dev
+- <code>npm install && npm run dev</code>
 
-- php artisan migrate
+- <code>php artisan migrate</code>
 
 Now restart the server. And Enjoy the New Vue Scaffolding with Laravel 8.
 
-# Happy Coding
+> Happy Coding
 
 ## Contributing
 
