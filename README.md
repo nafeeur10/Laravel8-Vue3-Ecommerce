@@ -11,8 +11,8 @@
 
 - Via Laravel Installer:
   <code>composer global require laravel/installer</code>
-- laravel new <code><project-name></code>
-- cd <code><project-name></code>
+- laravel new <code>project-name</code>
+- cd <code>project-name</code>
 
 ## Install Vuejs with Laravel
 
