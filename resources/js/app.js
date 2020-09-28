@@ -1,6 +1,8 @@
 require('./bootstrap');
 
 import Vue from 'vue';
+import Axios from 'axios'
+Vue.prototype.$http = Axios;
 
 import { InertiaApp } from '@inertiajs/inertia-vue';
 import { InertiaForm } from 'laravel-jetstream';

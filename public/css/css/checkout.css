@@ -1,0 +1,37 @@
+/* Input Field Animation */
+
+  
+  div.wrap div {
+    position: relative;
+  }
+  
+  .label-checkout {
+    position: absolute;
+    top: 5px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 0 10px;
+    background-color: white;
+    -webkit-transition: top .2s ease-in-out, 
+                        font-size .2s ease-in-out;
+    transition: top .2s ease-in-out, 
+                font-size .2s ease-in-out;
+  }
+  
+  .active-checkout {
+    top: -23px;
+    font-size: 15px;
+  }
+  
+  .input-checkout {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    font-size: 20px;
+    color: teal;
+  } 
+  
+  .input-checkout:focus {
+    outline: none;
+  }
