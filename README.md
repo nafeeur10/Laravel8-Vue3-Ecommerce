@@ -19,7 +19,7 @@
 - Install laravel/jetstream package
   <code>composer require laravel/jetstream</code>
 
-- Though we are wanting to use Vue, we have to use Interia
+- Though we are wanting to use Vue, we have to use Inertia
   <code>php artisan jetstream:install inertia --teams</code>
 
 - <code>npm install && npm run dev</code>
